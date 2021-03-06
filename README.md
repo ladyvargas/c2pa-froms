@@ -12,11 +12,10 @@
 `git clone https://github.com/ladyvargas/c2pa-froms.git`
 2. Step 2: Compiling
 - Make the directory containing the source your working directory and then fetch Hugo’s dependencies:
-`mkdir -p src/github.com/gohugoio`
-`ln -sf $(pwd) src/github.com/gohugoio/hugo`
-
- `go get`
+  `mkdir -p src/github.com/gohugoio`
+  `ln -sf $(pwd) src/github.com/gohugoio/hugo`
+  `go get`
 - Once you have properly configured your directory, you can compile Hugo using the following command:
-`go build -o hugo main.go`
+  `go build -o hugo main.go`
 
 ###End
