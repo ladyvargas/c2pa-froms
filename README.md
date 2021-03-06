@@ -18,4 +18,4 @@
 - Once you have properly configured your directory, you can compile Hugo using the following command:
   `go build -o hugo main.go`
 
-###End
+## End
