@@ -11,15 +11,14 @@
 1. Step 1: Intall Hugo
 
 
-1.  Step 1: Get the Source
+2.  Step 1: Get the Source
 `git clone https://github.com/ladyvargas/c2pa-froms.git`
 
 
-2. Step 3: Compiling
-- Make the directory containing the source your working directory and then fetch Hugo’s dependencies:
+3. Step 3: Compiling
+- Make the directory containing the source your working directory and then fetch Hugo’s dependencies
+`hugo server --watch --buildDrafts --verbose`
 
-
-- Once you have properly configured your directory, you can compile Hugo using the following command:
-  `go build -o hugo main.go`
-
+4. Step 4: Open your browser
+- Now, open up your browser and point it to the Web Server URL listed in the output. (It is usually http://localhost:1313.)
 ## End
