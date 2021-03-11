@@ -21,4 +21,15 @@
 
 4. Step 4: Open your browser
 - Now, open up your browser and point it to the Web Server URL listed in the output. (It is usually http://localhost:1313.)
+
+## Execute Via Docker
+`./hugo-build.sh`
+`./hugo-serve.sh` 
+It didn't work, so I had to do:
+`git submodule init` 
+`git submodule update`
+Then again:
+`./hugo-build.sh`
+`./hugo-serve.sh `
+
 ## End
